@@ -140,7 +140,7 @@ header {
     width: 100%;
     /* height: 70px; */
     height: 9rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .nav3 ul {
@@ -204,7 +204,7 @@ header {
     left: 10%;
     color: #fff;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     /* padding: 10px; */
     padding: 1rem;
     /* letter-spacing: 5px; */
@@ -223,6 +223,7 @@ header {
     margin: 2rem 0rem;
     background-color: var(--secondary);
     color: #fff;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -244,7 +245,7 @@ header {
 .product-intro h1 {
     color: var(--primary);
     letter-spacing: 0.2rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
@@ -282,11 +283,15 @@ header {
     width: 100%;
     transition: 0.5s ease-in-out;
 }
+.card h1, .card p{
+    font-size: 1.5rem;
+}
 
 .card i {
     color: goldenrod;
     /* margin: 10px 0px; */
     margin: 1rem 0rem;
+    font-size: 1.5rem;
 }
 
 .card button {
@@ -297,9 +302,10 @@ header {
     /* border-radius: 3px; */
     border-radius: 0.3rem;
     /* padding: 5px 20px; */
-    padding: 0.5rem 2rem;
+    padding: 1rem 2.5rem;
     /* margin-top: 15px; */
     margin-top: 1.5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -321,11 +327,13 @@ header {
     color: #fff;
     position: absolute;
     top: 0;
-    left: 0;
+    left:0;
     background-color: var(--primary);
-    transform: rotate(-20deg);
+    transform: rotate(-45deg);
     /* padding: 0px 4px; */
-    padding: 0rem 0.4rem;
+    /* padding: 0rem 0.5rem; */
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
 
 }
 
@@ -401,133 +409,11 @@ header {
 
 
   /* responsive start */
-/* @media only screen and (max-width:769px){
-    .nav1{
-        position: relative;
-        z-index: 2;
-        background-color: #fff;
-    }
-    .nav1 .right i{
-        font-size: 15px;
-        margin: 0px 5px;
-    }
 
-    .nav2 {
-        width: 100%;
-        height: 80px;
-       
-    }
-    
-    .nav2 .nav2-left i {
-        margin-left: 0px;
-    }
-    
-    .nav2 .nav2-center h1 {
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-    }
-    
-    .nav2 .nav2-center p {
-        margin-top: 5px;
-        font-size: 10px;
-        color: grey;
-    }
-    
-    .nav2 .nav2-right i {
-        margin: 0px 5px;
-    }
-
-    .nav3{
-        display: none;
-    }
-
-    .featured{
-        background-attachment: fixed;
-    }
-
-    .container {
-        padding: 0px 50px;
-        margin-top: 7px;
-    }
-    
-    .product-intro h1 {
-        color: var(--primary);
-        letter-spacing: 0.2rem;
-        font-size: 2rem;
-        font-weight: bolder;
-    }
-    
-    .product-intro {
-        text-align: center;
-    }
-    
-    .product-intro h1 span {
-        color: var(--secondary);
-    }
-    
-    .product-intro p {
-        color: grey;
-        margin: 15px 0px;
-    }
-    
-    .card-container {
-
-        margin: 2rem 0;
-    }
-    
-    .card-container .card {
-        flex-basis: 20%;
-        padding: 0.8rem;
-        position: relative;
-    }
-    
-    .card img {
-        width: 100%;
-        transition: 0.5s ease-in-out;
-    }
-    
-    .card i {
-        color: goldenrod;
-        margin: 10px 0px;
-    }
-    
-    .card button {
-        color: #fff;
-        background-color: var(--secondary);
-        border: none;
-        outline: none;
-        border-radius: 3px;
-        padding: 5px 20px;
-        margin-top: 15px;
-    }
-    
-    
-    .card:hover img,
-    .card:hover h1 {
-        width: 80%;
-        color: var(--primary);
-    }
-    
-    .card::before {
-        content: "20% off";
-        width: 25%;
-        height: 25px;
-        line-height: 25px;
-        border-radius: 2px;
-        color: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: var(--primary);
-        transform: rotate(-20deg);
-        padding: 0px 4px;
-    
-    }
-    
-} */
 
 @media(max-width:768px){
 html{
     font-size: 20%;
 }
+
 }
